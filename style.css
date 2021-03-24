@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/windows-10-original-1600x900.jpg);
+}
+#Footer-NavBar{
+    display: inline-flex;
+    position: relative;
+    top: 94vh;
+    width: 100%;
+    height: 6vh;
+    background-color: rgba(22,22,22,.7);
+}
+#Windows-Initial{
+    background-color: transparent;
+    border: none;
+    width: 4%;
+}
+#Windows-Initial:hover{
+    background-color: rgba(50,50,50,.6);
+}
+#Img-Logo-White-Branca{
+    position: relative;
+    width: 30px;
+}
+#Img-Logo-White-Azul{
+    position: relative;
+    left: 17px;
+    display: none;
+    width: 30px;
+}
+#Panel-Windows-User{
+    display: none;
+    height: 75vh;
+    width: 43%;
+    position: relative;
+    top: 13vh;
+    background-color: rgba(30,30,30,.9);
+}
+.Left-Content{
+    height: 75vh;
+    width: 10%;
+}
+#Hamburguer{
+    width: 100%;
+    height: 8vh;
+    background-color: transparent;
+    border: none;
+}
+#Hamburguer:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Images-Hamburguer{
+    position: relative;
+    left: 0.5%;
+    width: 37%;
+}
+#Shutdown-Restart{
+    border: none;
+    position: relative;
+    top: 59vh;
+    width: 100%;
+    height: 8vh;
+    background-color: transparent;
+}
+#Shutdown-Restart:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Images-Shutdown{
+    width: 36%;
+}
+#Settings{
+    border: none;
+    position: absolute;
+    top: 59vh;
+    width: 10%;
+    height: 8vh;
+    background-color: transparent;
+}
+#Settings:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Image-Settings{
+    position: relative;
+    left: -2px;
+    width: 36%;
+}
+#Images{
+    border: none;
+    position: absolute;
+    top: 51vh;
+    width: 10%;
+    height: 8vh;
+    background-color: transparent;
+}
+#Images:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Images-Users{
+    position: relative;
+    left: -1px;
+    width: 37%;
+}
+#Pages{
+    border: none;
+    position: absolute;
+    top: 43vh;
+    width: 10%;
+    height: 8vh;
+    background-color: transparent;
+}
+#Pages:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Images-Pages{
+    width: 37%;
+}
+#User{
+    border: none;
+    position: absolute;
+    top: 35vh;
+    width: 10%;
+    height: 8vh;
+    background-color: transparent;
+}
+#User:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Images-User{
+    width: 37%;
+}
