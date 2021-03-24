@@ -511,12 +511,113 @@ body {
     width: 100%;
     height: 5vh;
     background-color: transparent;
-    top: 12vh;
+    top: 15vh;
 }
 #Foto:hover{
     background-color: rgba(60,60,60,.6);
 }
 .Foto-Item{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 3px;
+    width: 35px;
+}
+#Letra-G{
+    position: relative;
+    top: 17vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#Letra-G:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Letra-item-G{
+    position: relative;
+    left: -38.5%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Chrome{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 19vh;
+}
+#Chrome:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Chrome-Item{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 3px;
+    width: 35px;
+}
+#Letra-M{
+    position: relative;
+    top: 21vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#Letra-M:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Letra-item-M{
+    position: relative;
+    left: -38.5%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Edge{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 23vh;
+}
+#Edge:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Edge-Item{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 3px;
+    width: 35px;
+}
+#Store{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 23vh;
+}
+#Store:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Store-Item{
     position: relative;
     left: 16%;
     height: 4.5vh;
