@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@ body {
 #Windows-Initial{
     background-color: transparent;
     border: none;
-    width: 4%;
+    width: 4.2%;
 }
 #Windows-Initial:hover{
     background-color: rgba(50,50,50,.6);
@@ -39,6 +41,11 @@ body {
     position: relative;
     top: 13vh;
     background-color: rgba(30,30,30,.9);
+}
+.Container{
+    display: inline-flex;
+    width: 100%;
+    height: 75vh;
 }
 .Left-Content{
     height: 75vh;
@@ -131,4 +138,388 @@ body {
 }
 .Images-User{
     width: 37%;
+}
+.Middle-content{
+    overflow-y: scroll;
+    width: 40%;
+    height: 75vh;
+}
+.Middle-content::-webkit-scrollbar{
+    width: 2px;
+    background-color: transparent;
+}
+.Middle-content::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(97, 97, 97);
+}
+.Middle-content::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(110, 110, 110);
+}
+#Add-recently{
+    position: relative;
+    top: 1.4vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#Add-recently:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Description-Itens{
+    position: relative;
+    left: -30px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Microsoft-Teams{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 1.8vh;
+}
+#Microsoft-Teams:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Description-Item{
+    position: relative;
+    left: 8%;
+    top: 1.5vh;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+.Item-Images{
+    position: relative;
+    left: 12%;
+    height: 5vh;
+    top: 2px;
+    width: 40px;
+}
+.Img-Teams{
+    width: 85%;
+}
+#Microsoft-Acess{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 1.8vh;
+}
+.Item-Image-Acess{
+    position: relative;
+    left: 19%;
+    height: 4.5vh;
+    top: 2px;
+    width: 40px;
+}
+#Microsoft-Acess:hover{
+    background-color: rgba(60,60,60,.6);
+}
+#Skype-for-Business{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 1.8vh;
+}
+#Skype-for-Business:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Item-Skype-for-Business{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 2px;
+    width: 40px;
+}
+#Expand{
+    position: relative;
+    top: 3vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#Expand:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Expand-item{
+    position: relative;
+    left: -31%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#A{
+    position: relative;
+    top: 4vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#A:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.A-item{
+    position: relative;
+    left: -38.5%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Microsoft-Acess-Two{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 4.5vh;
+}
+#Microsoft-Acess-Two:hover{
+    background-color: rgba(60,60,60,.6);
+}
+#Windows-Folder{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 5vh;
+}
+#Windows-Folder:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Item-Windows-Folder{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 2px;
+    width: 40px;
+}
+#Alarm-Clock{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 5vh;
+}
+#Alarm-Clock:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Item-Alarm-Clock{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 2px;
+    width: 40px;
+}
+#C{
+    position: relative;
+    top: 6vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#C:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.C-item{
+    position: relative;
+    left: -38.5%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Calculator{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 7vh;
+}
+#Calculator:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Item-Calculator{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 2px;
+    width: 40px;
+}
+#Calendar{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 7vh;
+}
+#Calendar:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Item-Calendar{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 2px;
+    width: 40px;
+}
+#D{
+    position: relative;
+    top: 8vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#D:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.D-item{
+    position: relative;
+    left: -38.5%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Itens{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 9vh;
+}
+#Itens:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Item{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 6px;
+    width: 35px;
+}
+#Letra{
+    position: relative;
+    top: 11vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#Letra:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Letra-item{
+    position: relative;
+    left: -38.5%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Email{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 12vh;
+}
+#Email:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Email-Item{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 3px;
+    width: 35px;
+}
+#Letra-F{
+    position: relative;
+    top: 14vh;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+}
+#Letra-F:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Letra-item-F{
+    position: relative;
+    left: -38.5%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+}
+#Foto{
+    border-radius: 2px;
+    display: inline-flex;
+    border: none;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    top: 12vh;
+}
+#Foto:hover{
+    background-color: rgba(60,60,60,.6);
+}
+.Foto-Item{
+    position: relative;
+    left: 16%;
+    height: 4.5vh;
+    top: 3px;
+    width: 35px;
 }
