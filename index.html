@@ -9,7 +9,7 @@
     <title>Windows</title>
 </head>
 
-<body>
+<body onload="myFunction()">
 
     <div id="Footer-NavBar">
         <button id="Windows-Initial" onmouseover="EventLogo()" onmouseout="EventLogoExit()" onclick="ExibPanelWindows()"
@@ -435,11 +435,11 @@
 
                         <button id="Produtividade-Panels-3">
                             <span>
-                                <div class="Screen-1">
+                                <div id="Screen-1">
                                     <p class="Screen-1-Text">
-                                        Ver todos os seus emails e um único lugar
+                                        Ver todos os seus emails em um único lugar
                                     </p>
-                                    
+
                                 </div>
                             </span>
 
@@ -448,10 +448,19 @@
                                     <p class="Text-Fixed">
                                         Email
                                     </p>
+
+
+                                    <div class="Icon-Email">
+                                        <img class="Icon-Email-2" src="Images/email.png" alt="">
+                                    </div>
                                 </div>
+                            </span>
 
-                                <div class="Icon-Email">
-
+                            <span>
+                                <div id="Screen-2">
+                                    <p class="Screen-2-Text">
+                                        Somos compativeis com o Gmail
+                                    </p>
                                 </div>
                             </span>
                         </button>

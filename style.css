@@ -864,8 +864,10 @@ body {
     top: .33vh;
     height: 3vh;
 }
-.Screen-1{
-    border: 1px solid white;
+#Screen-1{
+    animation-duration: 1s;
+    animation-name: TrocaDeSlider;  
+    top: -1.3vh;
     position: relative;
     width: 90%;
     left: 5%;
@@ -877,18 +879,65 @@ body {
     color: white;
 }
 .Screen-1-Text-Fixed{
-    position: relative;
+    display: inline-flex;
+    position: absolute;
+    top: 6.8vh;
     left: 5%;
-    height: 6vh;
-    border: 1px solid white;
     width: 90%;
     height: 3vh;
 }
 .Text-Fixed{
     position: relative;
-    left: -30%;
+    left: 5%;
     font-family: 'Roboto';
     font-size: 12px;
     top: .35vh;
     color: white;
 }
+.Icon-Email{
+    top: 0vh;
+    position: absolute;
+    left: 65%;
+    width: 35%;
+    height: 3vh;
+}
+.Icon-Email-2{
+    position: relative;
+    left: -5%;
+    width: 60%;
+}
+@keyframes TrocaDeSlider{
+    to{
+        transform: translateY(0);
+    }
+    from{
+        transform: translateY(6vh);
+        opacity: .1;
+    }
+}
+#Screen-2{
+    display: none;
+    top: -1.3vh;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: 6vh;
+}
+.Screen-2-Text{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: white;
+}
+@keyframes TrocaDeSlider2{
+    to{
+        transform: translateY(0);
+    }
+    from{
+        transform: translateY(6vh);
+        opacity: .1;
+    }
+}
+
+/*
+
+*/
