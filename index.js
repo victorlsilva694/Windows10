@@ -40,18 +40,17 @@ function ExibPanelWindows()
 
 function myFunction()
 {
-    myVar = setInterval(SliderMicrosoft , 2000);
+    myVar = setInterval(SliderMicrosoft , 5000);
+
 }
 
 function SliderMicrosoft() {
     Screen1.style.display = 'block';
 
-
     if(Screen1.style.display === 'block')
     {
         Screen1.style.display = 'none';
         Screen2.style.display = 'block';
-           Screen2.style.animation = "TrocaDeSlider2 1s"; 
-            
+        Screen2.style.animation = "TrocaDeSlider2 1s";
     }
 }
