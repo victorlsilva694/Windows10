@@ -9,7 +9,7 @@
     <title>Windows</title>
 </head>
 
-<body onload="myFunction()">
+<body onload="LoadSlider()">
 
     <div id="Footer-NavBar">
         <button id="Windows-Initial" onmouseover="EventLogo()" onmouseout="EventLogoExit()" onclick="ExibPanelWindows()"
@@ -469,10 +469,39 @@
                     <div class="Panels-Produtividade-Line-2">
 
                         <button id="Produtividade-Panels-4">
-
+                            <span>
+                                <div class="Panels-4-Container">
+                                    <img class="Panels-4-Image" src="Images/edge.png" alt="">
+                                </div>
+                            </span>
+                            <span class="Text-Panels-4">
+                                Microsoft Edge
+                            </span>
                         </button>
 
                         <button id="Produtividade-Panels-5">
+
+                            <span>
+                                <!-- Div mãe -->
+                                <div id="Container-images-Panel-5">
+
+                                    <img id="ImageInitial" src="Images/foto.png">
+
+                                    <img class="Image-Flex" src="Images/Potter.PNG" alt="">
+                                </div>
+                            </span>
+
+                            <span>
+                                <div id="Container-Fixed-Text-Panel-5">
+                                    <p class="Text-Panel-5">
+                                        Email
+                                    </p>
+
+                                    <div class="Image-Email">
+                                        <img class="Container-Image-Email" src="Images/email.png" alt="">
+                                    </div>
+                                </div>
+                            </span>
 
                         </button>
 
