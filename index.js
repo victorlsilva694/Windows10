@@ -4,6 +4,12 @@ let PanelWindowsUser = document.getElementById("Panel-Windows-User");
 let Screen1          = document.getElementById("Screen-1");
 let Screen2          = document.getElementById("Screen-2");
 let ImageInitial     = document.getElementById("ImageInitial");
+let ImageFlex        = document.getElementById("Image-Flex");
+let ImageFlex2       = document.getElementById("Image-Flex-2");
+let ImageFlex3       = document.getElementById("Image-Flex-3");
+let ImageFlex4       = document.getElementById("Image-Flex-4");
+let ImageFlex5       = document.getElementById("Image-Flex-5");
+let Panel6           = document.getElementById("Produtividade-Panels-6");
 
 function EventLogo()
 {
@@ -57,7 +63,7 @@ function SliderMicrosoft() {
 }
 
 function LoadChangeImage(){
-    Change = setInterval(ChangeImage, 3000);
+    Change = setInterval(ChangeImage, 4000);
 }
 
 function ChangeImage(){
@@ -67,6 +73,50 @@ function ChangeImage(){
     {
 
         ImageInitial.style.display = 'none';
-        
+        ImageFlex.style.display    = 'block';
+        ImageFlex.style.animation  = "TrocaDeImagem 1s";
+    }
+}
+function LoadChangeImage2(){
+    Change = setInterval(ChangeImage2, 4000);
+}
+
+function ChangeImage2(){
+    if(ImageFlex.style.display === 'block')
+    {
+        ImageFlex = ImageFlex2
+    }
+}
+
+function LoadChangeImage3(){
+    Change = setInterval(ChangeImage3, 4000);
+}
+
+function ChangeImage3(){
+    if(ImageFlex.style.display === 'block')
+    {
+        ImageFlex2 = ImageFlex3
+    }
+}
+
+function LoadChangeImage4(){
+    Change = setInterval(ChangeImage4, 4000);
+}
+
+function ChangeImage4(){
+    if(ImageFlex.style.display === 'block')
+    {
+        ImageFlex3 = ImageFlex4
+    }
+}
+
+function LoadChangeImage5(){
+    Change = setInterval(ChangeImage5, 4000);
+}
+
+function ChangeImage5(){
+    if(ImageFlex.style.display === 'block')
+    {
+        ImageFlex4 = ImageFlex5
     }
 }
