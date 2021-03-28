@@ -1194,6 +1194,61 @@ body {
     font-size: 13px;
     color: white;
 }
-.Explorer-Panels-5{
-    
+#Explorer-Panels-5{ 
+    background-color: rgba(55,55,55,.6);
+    border: none;
+    position: relative;
+    left: 3.33%;
+    width: 31.1%;
+    height: 10vh;
+}
+#Explorer-Panels-5:hover{
+    background-color: rgba(65,65,65,.6);
+    border: 1px solid rgba(156, 156, 156, 0.6);
+}
+.Spotify{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: -1vh;
+    height: 5vh;
+}
+.Image-Spotify{
+    width: 80%;
+}
+.Text-Spotify{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 13px;
+    top: .3vh;
+    color: white;
+}
+#Explorer-Panels-6{
+    background-color: rgba(55,55,55,.6);
+    border: none;
+    position: relative;
+    left: 6.66%;
+    width: 31.1%;
+    height: 10vh;
+}
+#Explorer-Panels-6:hover{
+    background-color: rgba(65,65,65,.6);
+    border: 1px solid rgba(156, 156, 156, 0.6);
+}
+.Paint3D{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: -1vh;
+    height: 5vh;
+}
+.Image-Paint3D{
+    width: 85%;
+}
+.Text-Paint3D{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 13px;
+    top: .3vh;
+    color: white;
 }
